@@ -2,6 +2,8 @@
   text-align: center;
 }
 
+
+
 header {
   background-color: #282c34;
   display: flex;
@@ -10,6 +12,7 @@ header {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin: 0px;
 }
 
 body{
@@ -18,11 +21,23 @@ body{
   background-repeat: no-repeat;
   width: auto;
   height: auto;
+ 
 }
 
 
 .img > img{
   width: 100%;
+}
+
+.components{
+  background-color: white;
+  max-width: 500px;
+  height: 100vh;
+  margin-top: 0px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
 }
 
 
